@@ -1,0 +1,230 @@
+/* VARIABLE PROPERTIES (HANDLE BY JS)*/
+:root {
+    --main-bg-color: #1a1b26;
+    --secondary-bg-color: #c0caf5;
+    --hyperlinks-color: #7aa2f7;
+    --code-bg-color: #24283b;
+    --code-tags-color: #f7768e;
+    --code-comments-color: #565f89;
+    --code-html-atr-color: #bb9af7;
+    --code-string-color: #9ece6a;
+    --code-function-color: #7aa2f7;
+    --code-parameter-color: #e0af68;
+    --code-regex-color: #b4f9f8;
+    --white: #ffffff;
+    --black: #1b1b1b;
+}
+
+/* FIXED CSS */
+code, code:visited:focus {
+    background-color: transparent !important;
+}
+
+th[scope=col] {
+    border-bottom-color: #a4a4a4 !important;
+}
+
+.page-header > .logo {
+    filter: invert(100%);
+}
+
+.search-button {
+    filter: invert(100%);
+    background: transparent url(/static/media/search.43d0e3bf.svg) 0 0 no-repeat !important;
+}
+
+.top-level-entry::before {
+    filter: invert(100%);
+}
+
+.result-item:hover {
+    background-color: #ffffff25 !important;
+}
+
+.metadata {
+    background-color: transparent !important;
+}
+
+.page-header > a:link:focus {
+    background-color: transparent !important;
+}
+
+.result-item {
+    border-bottom: transparent !important;
+}
+
+.page-footer-logo > a:link:focus {
+    background-color: transparent !important;
+}
+
+.bc-supports-yes {
+    background-color: #d0f1de !important;
+  }
+
+.bc-supports-no {
+    background-color: #f8c9ca !important;
+}
+
+.bc-supports-partial {
+    background-color: #f3f8c9 !important;
+}
+
+.ic-non-standard:before, .ic-deprecated:before, .bc-head-icon-chrome:before,
+.bc-head-icon-edge:before, .bc-head-icon-firefox:before, .bc-head-icon-ie:before,
+.bc-head-icon-opera:before, .bc-head-icon-safari:before, .bc-head-icon-webview_android:before,
+.bc-head-icon-chrome_android:before, .bc-head-icon-firefox_android:before,
+.bc-head-icon-opera_android:before, .bc-head-icon-safari_ios:before,
+.bc-head-icon-samsunginternet_android:before, .bc-platform-desktop:before,
+.bc-platform-mobile:before, .external:after, .bc-platform-server:before,
+.bc-head-icon-deno:before, .bc-head-icon-nodejs:before, .ic-footnote:before {
+    filter: invert(100%);
+}
+
+/* VARIABLE CSS */
+html {
+    background-color: var(--main-bg-color) !important;
+    color: var(--white) !important;
+}
+
+/* header */
+button, .button, .minimal {
+    color: var(--white) !important;
+}
+
+a[role=menuitem] {
+    color: var(--white) !important;
+}
+
+a:visited:focus {
+    background-color: var(--hyperlinks-color) !important;
+}
+
+b > span {
+    color: var(--white) !important;
+}
+
+.page-header-main {
+    background-color: var(--main-bg-color) !important;
+}
+
+.search-input-field {
+    color: var(--white) !important;
+}
+
+.main-menu {
+    background-color: var(--main-bg-color) !important;
+}
+
+.search-results {
+    background-color: var(--main-bg-color) !important;
+    border-color: var(--white) !important;
+}
+
+.feedback, .references-guides, .technologies {
+    background-color: var(--main-bg-color) !important;
+}
+
+#main-q {
+    background-color: var(--main-bg-color) !important;
+    border-color: var(--white) !important;
+}
+
+/* body */
+a {
+    color: var(--hyperlinks-color) !important;
+}
+
+span {
+    color: var(--black) !important;
+}
+
+th, td {
+    background-color: var(--main-bg-color) !important;
+    border-color: var(--hyperlinks-color) !important;
+}
+
+pre {
+    background-color: var(--code-bg-color) !important;
+    border-color: var(--hyperlinks-color) !important;
+}
+
+td > span {
+    color: var(--white) !important;
+}
+
+.hero {
+    background-color: var(--secondary-bg-color) !important;
+}
+
+.hero-content h1 {
+    color: var(--white) !important;
+    background-color: var(--main-bg-color) !important;
+}
+
+.hero-content a {
+    color: var(--black) !important;
+}
+
+.button {
+    background-color: var(--hyperlinks-color) !important;
+    border-color: var(--hyperlinks-color) !important;
+}
+
+.callout, .notecard {
+    background-color: var(--secondary-bg-color) !important;
+    color: var(--black) !important;
+    border-color: var(--hyperlinks-color) !important;
+}
+
+.callout > p > a, .notecard > p > a {
+    color: var(--black) !important;
+}
+
+.properties {
+    border-color: var(--hyperlinks-color) !important;
+}
+
+.bc-table-row-header, .bc-head-txt-label {
+    color: var(--white) !important;
+}
+
+.breadcrumb-locale-container {
+    background-color: var(--secondary-bg-color) !important;
+}
+
+/* code */
+.tag, .boolean, .constant, .deleted, .number, .property, .symbol {
+    color: var(--code-tags-color) !important;
+}
+
+.cdata, .comment, .doctype, .doctype-tag, .prolog, .punctuation, .name {
+    color: var(--code-comments-color) !important;
+}
+
+.attr-name, .builtin, .char, .inserted, .selector, .namespace, .operator {
+    color: var(--code-html-atr-color) !important;
+}
+
+.string, .atrule, .attr-value, .keyword, .entity, .url {
+    color: var(--code-string-color) !important;
+}
+
+.class-name, .function, .interpolation, .interpolation-punctuation {
+    color: var(--code-function-color) !important;
+}
+
+.parameter {
+    color: var(--code-parameter-color) !important;
+}
+
+.regex, .regex-delimiter, .regex-source, .lenguage-regex, .regex-flags {
+    color: var(--code-regex-color) !important;
+}
+
+.bc-supports-no > span, .bc-supports-partial > span, .bc-supports-yes > span {
+    color: var(--black) !important;
+}
+
+#result_box > span, span#result_box {
+    color: var(--white) !important;
+}
