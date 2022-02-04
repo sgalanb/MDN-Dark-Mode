@@ -95,7 +95,7 @@ a[role=menuitem] {
     color: var(--white) !important;
 }
 
-a:visited:focus {
+li > a[role=menuitem]:visited, li > a[role=menuitem]:focus, li > a[role=menuitem]:hover {
     background-color: var(--hyperlinks-color) !important;
 }
 
@@ -148,7 +148,7 @@ pre {
     border-color: var(--hyperlinks-color) !important;
 }
 
-td > span {
+td > span, p > span, h2 > a > span {
     color: var(--white) !important;
 }
 
@@ -223,8 +223,4 @@ td > span {
 
 .bc-supports-no > span, .bc-supports-partial > span, .bc-supports-yes > span {
     color: var(--black) !important;
-}
-
-#result_box > span, span#result_box {
-    color: var(--white) !important;
 }
