@@ -26,9 +26,24 @@
         {
             "matches": ["*://developer.mozilla.org/*"],
             "js": ["script.js"],
-            "css": ["styles.css"]
+            "css": ["extensionStyles.css"]
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": ["darkStyles.css"],
+            "matches": ["*://developer.mozilla.org/*"]
+        },
+        {
+            "resources": ["/images/lightbulb-solid.svg"],
+            "matches": ["*://developer.mozilla.org/*"] 
+        },
+        {
+            "resources": ["/images/lightbulb-regular.svg"],
+            "matches": ["*://developer.mozilla.org/*"] 
         }
     ]
 
 
 }
+

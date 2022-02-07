@@ -1,0 +1,39 @@
+#div {
+    position: absolute;
+    display: grid;
+    grid-template: 1fr / 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    margin: 5px 10px;
+    width: 200px;
+    right: 0;
+    top: 0;
+}
+
+#toggle {
+    height: 40px;
+    width: 40px;
+    padding: 3px;
+    border: 2px solid;
+}
+
+#form {
+    margin-left: 5px;
+}
+
+#select {
+    background: transparent;
+    border-width: 2px;
+    font-weight: bold;
+    height: 40px;
+}
+
+.light-mode-class {
+    border-color: #1b1b1b !important;
+    color: #1b1b1b !important;
+}
+
+.dark-mode-class {
+    border-color: #ffffff !important;
+    color: #ffffff !important;
+}

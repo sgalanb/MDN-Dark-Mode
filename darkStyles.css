@@ -1,5 +1,5 @@
-/* VARIABLE PROPERTIES (HANDLE BY JS)*/
-:root {
+/* THEMES */
+.dark-mode-TokyoNight {
     --main-bg-color: #1a1b26;
     --secondary-bg-color: #c0caf5;
     --hyperlinks-color: #7aa2f7;
@@ -11,77 +11,42 @@
     --code-function-color: #7aa2f7;
     --code-parameter-color: #e0af68;
     --code-regex-color: #b4f9f8;
+    --result-item-hover-bg-color: #ffffff25;
     --white: #ffffff;
     --black: #1b1b1b;
+    --transparent: transparent;
+    --invert-100: invert(100%);
+    --default-support-yes: #d0f1de;
+    --default-support-no: #f8c9ca;
+    --default-support-partial: #f3f8c9;
+    --default-grey: #a4a4a4;
 }
 
-/* FIXED CSS */
-code, code:visited:focus {
-    background-color: transparent !important;
+.dark-mode-OneDarkPro {
+    --main-bg-color: #282c34;
+    --secondary-bg-color: #c0caf5;
+    --hyperlinks-color: #61afef;
+    --code-bg-color: #24283b;
+    --code-tags-color: #e06c75;
+    --code-comments-color: #5c6370;
+    --code-html-atr-color: #c678dd;
+    --code-string-color: #98c379;
+    --code-function-color: #61afef;
+    --code-parameter-color: #abb2bf;
+    --code-regex-color: #98c379;
+    --result-item-hover-bg-color: #ffffff25;
+    --white: #ffffff;
+    --black: #1b1b1b;
+    --transparent: transparent;
+    --invert-100: invert(100%);
+    --default-support-yes: #d0f1de;
+    --default-support-no: #f8c9ca;
+    --default-support-partial: #f3f8c9;
+    --default-grey: #a4a4a4;
 }
 
-th[scope=col] {
-    border-bottom-color: #a4a4a4 !important;
-}
-
-.page-header > .logo {
-    filter: invert(100%);
-}
-
-.search-button {
-    filter: invert(100%);
-    background: transparent url(/static/media/search.43d0e3bf.svg) 0 0 no-repeat !important;
-}
-
-.top-level-entry::before {
-    filter: invert(100%);
-}
-
-.result-item:hover {
-    background-color: #ffffff25 !important;
-}
-
-.metadata {
-    background-color: transparent !important;
-}
-
-.page-header > a:link:focus {
-    background-color: transparent !important;
-}
-
-.result-item {
-    border-bottom: transparent !important;
-}
-
-.page-footer-logo > a:link:focus {
-    background-color: transparent !important;
-}
-
-.bc-supports-yes {
-    background-color: #d0f1de !important;
-  }
-
-.bc-supports-no {
-    background-color: #f8c9ca !important;
-}
-
-.bc-supports-partial {
-    background-color: #f3f8c9 !important;
-}
-
-.ic-non-standard:before, .ic-deprecated:before, .bc-head-icon-chrome:before,
-.bc-head-icon-edge:before, .bc-head-icon-firefox:before, .bc-head-icon-ie:before,
-.bc-head-icon-opera:before, .bc-head-icon-safari:before, .bc-head-icon-webview_android:before,
-.bc-head-icon-chrome_android:before, .bc-head-icon-firefox_android:before,
-.bc-head-icon-opera_android:before, .bc-head-icon-safari_ios:before,
-.bc-head-icon-samsunginternet_android:before, .bc-platform-desktop:before,
-.bc-platform-mobile:before, .external:after, .bc-platform-server:before,
-.bc-head-icon-deno:before, .bc-head-icon-nodejs:before, .ic-footnote:before {
-    filter: invert(100%);
-}
-
-/* VARIABLE CSS */
-html {
+/* DARK MODE CSS */
+body {
     background-color: var(--main-bg-color) !important;
     color: var(--white) !important;
 }
@@ -107,6 +72,14 @@ b > span {
     background-color: var(--main-bg-color) !important;
 }
 
+.page-header > .logo {
+    filter: var(--invert-100);
+}
+
+.page-header > a:link:focus {
+    background-color: var(--transparent) !important;
+}
+
 .search-input-field {
     color: var(--white) !important;
 }
@@ -115,9 +88,22 @@ b > span {
     background-color: var(--main-bg-color) !important;
 }
 
+.search-button {
+    filter: var(--invert-100);
+    background: var(--transparent) !important;
+}
+
 .search-results {
     background-color: var(--main-bg-color) !important;
     border-color: var(--white) !important;
+}
+
+.result-item {
+    border-bottom: var(--transparent) !important;
+}
+
+.result-item:hover {
+    background-color: var(--result-item-hover-bg-color) !important;
 }
 
 .feedback, .references-guides, .technologies {
@@ -141,6 +127,10 @@ span {
 th, td {
     background-color: var(--main-bg-color) !important;
     border-color: var(--hyperlinks-color) !important;
+}
+
+th[scope=col] {
+    border-bottom-color: var(--default-grey) !important;
 }
 
 pre {
@@ -192,7 +182,47 @@ td > span, p > span, h2 > a > span {
     background-color: var(--secondary-bg-color) !important;
 }
 
+.top-level-entry::before {
+    filter: var(--invert-100);
+}
+
+.metadata {
+    background-color: var(--transparent) !important;
+}
+
+.ic-non-standard:before, .ic-deprecated:before, .bc-head-icon-chrome:before,
+.bc-head-icon-edge:before, .bc-head-icon-firefox:before, .bc-head-icon-ie:before,
+.bc-head-icon-opera:before, .bc-head-icon-safari:before, .bc-head-icon-webview_android:before,
+.bc-head-icon-chrome_android:before, .bc-head-icon-firefox_android:before,
+.bc-head-icon-opera_android:before, .bc-head-icon-safari_ios:before,
+.bc-head-icon-samsunginternet_android:before, .bc-platform-desktop:before,
+.bc-platform-mobile:before, .external:after, .bc-platform-server:before,
+.bc-head-icon-deno:before, .bc-head-icon-nodejs:before, .ic-footnote:before {
+    filter: var(--invert-100);
+}
+
+.bc-supports-yes {
+    background-color: var(--default-support-yes) !important;
+  }
+
+.bc-supports-no {
+    background-color: var(--default-support-no) !important;
+}
+
+.bc-supports-partial {
+    background-color: var(--default-support-partial) !important;
+}
+
+
+.page-footer-logo > a:link:focus {
+    background-color: var(--transparent) !important;
+}
+
 /* code */
+code, code:visited:focus {
+    background-color: var(--transparent) !important;
+}
+
 .tag, .boolean, .constant, .deleted, .number, .property, .symbol {
     color: var(--code-tags-color) !important;
 }
@@ -201,11 +231,11 @@ td > span, p > span, h2 > a > span {
     color: var(--code-comments-color) !important;
 }
 
-.attr-name, .builtin, .char, .inserted, .selector, .namespace, .operator {
+.attr-name, .builtin, .char, .inserted, .selector, .namespace, .operator, .keyword {
     color: var(--code-html-atr-color) !important;
 }
 
-.string, .atrule, .attr-value, .keyword, .entity, .url {
+.string, .atrule, .attr-value, .entity, .url {
     color: var(--code-string-color) !important;
 }
 
