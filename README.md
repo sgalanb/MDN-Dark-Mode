@@ -14,6 +14,6 @@ Feel free to add your own themes and create a pull-request.
 
 ## Links
 
-[Download extension for Chrome.](https:test.com "MDN Dark Mode on Chrome Web Store")
+[Download extension for Chrome.](https://chrome.google.com/webstore/detail/mdn-dark-mode/jdaepiaaanhlmgoehjnnkhiagfkalhoc "MDN Dark Mode on Chrome Web Store")
 
-[Dowload extension for Firefox.](https:test.com "MDN Dark Mode on Chrome Web Store")
+[Dowload extension for Firefox.](https://addons.mozilla.org/es/firefox/addon/mdn-dark-mode/ "MDN Dark Mode on Firefox Browser Add-ons store")
