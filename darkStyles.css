@@ -197,7 +197,8 @@ td > span, p > span, h2 > a > span {
 .bc-head-icon-opera_android:before, .bc-head-icon-safari_ios:before,
 .bc-head-icon-samsunginternet_android:before, .bc-platform-desktop:before,
 .bc-platform-mobile:before, .external:after, .bc-platform-server:before,
-.bc-head-icon-deno:before, .bc-head-icon-nodejs:before, .ic-footnote:before {
+.bc-head-icon-deno:before, .bc-head-icon-nodejs:before, .ic-footnote:before,
+.ic-experimental:before, .ic-altname:before, .ic-prefix:before {
     filter: var(--invert-100);
 }
 
