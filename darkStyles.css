@@ -198,7 +198,8 @@ td > span, p > span, h2 > a > span {
 .bc-head-icon-samsunginternet_android:before, .bc-platform-desktop:before,
 .bc-platform-mobile:before, .external:after, .bc-platform-server:before,
 .bc-head-icon-deno:before, .bc-head-icon-nodejs:before, .ic-footnote:before,
-.ic-experimental:before, .ic-altname:before, .ic-prefix:before {
+.ic-experimental:before, .ic-altname:before, .ic-prefix:before,
+.ic-disabled:before {
     filter: var(--invert-100);
 }
 
