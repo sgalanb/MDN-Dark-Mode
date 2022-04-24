@@ -1,4 +1,4 @@
-# MDN-Dark-Mode
+# MDN-Dark-Mode (deprecated, see Update) 
 
 ## Information
 
@@ -17,3 +17,12 @@ Feel free to add your own themes and create a pull-request.
 [Download extension for Chrome.](https://chrome.google.com/webstore/detail/mdn-dark-mode/jdaepiaaanhlmgoehjnnkhiagfkalhoc "MDN Dark Mode on Chrome Web Store")
 
 [Dowload extension for Firefox.](https://addons.mozilla.org/es/firefox/addon/mdn-dark-mode/ "MDN Dark Mode on Firefox Browser Add-ons store")
+
+## Update
+
+After 15 days of published this extension, MDN released an official redesign of their entire website.
+This new design includes a dark mode (🙃) so this extension is now deprecated.
+
+Chrome Web Store peak statistics:
+
+![image](https://user-images.githubusercontent.com/73245438/164993224-80b5a64e-51af-489c-b5bd-ff345dfccdc6.png)
